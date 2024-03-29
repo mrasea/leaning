@@ -11,7 +11,17 @@ theme:
   name: material
   language: zh
 
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
 nav:
-  - 介绍: index.md
+  - 介绍: 
+    - index.md
   - hello glgo 学习:
-      - 本地环境搭建: hello_algo/install.md
+    - hello_algo/index.md
+    - hello_algo/install.md
+  - MkDocs 学习:
+    - mkdocs/index.md
+    - mkdocs/material.md

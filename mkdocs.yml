@@ -3,6 +3,9 @@ site_url: https://github.com/mrasea
 site_author: mrasea
 site_description: 个人学习笔记
 
+repo_url: https://github.com/mrasea/leaning
+edit_uri: edit/main/docs/
+
 # Copyright
 copyright: Copyright &copy; 2024-2024 mrasea</br>The website content is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>
 
@@ -12,7 +15,9 @@ theme:
   language: zh
   features:
     - content.code.copy
-
+    - content.action.edit
+    - content.action.view
+    - navigation.top
 markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:

@@ -55,6 +55,8 @@ theme:
     docker run --rm -it -p 8000:8000 -v "%cd%":/docs squidfunk/mkdocs-material
     ```
 
+当端口被占用，需要修改端口映射
+
 ## 生成网站
 
 [生成网站](./index.md)

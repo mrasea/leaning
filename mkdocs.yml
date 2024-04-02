@@ -16,13 +16,17 @@ theme:
   features:
     - content.code.copy
     - content.action.edit
-    - content.action.view
+    # - content.action.view
     - navigation.top
 markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
-
+  - footnotes
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  
 nav:
   - 介绍: index.md
   - hello glgo 学习:
@@ -33,3 +37,4 @@ nav:
     - mkdocs/material.md
   - 工具使用:
     - tool/git.md
+    - tool/rust.md

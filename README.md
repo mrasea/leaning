@@ -27,6 +27,8 @@ theme:
 
 ## 预览开发
 
+当端口被占用，需要修改端口映射
+
 Unix, Powershell
 ```
 docker run --rm -it -p 8000:8000 -v ${PWD}:/docs squidfunk/mkdocs-material
